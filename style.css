@@ -43,9 +43,28 @@ img {
     text-align: center;
     color: rgb(202, 107, 107);
 }
+
 a:hover {
     color: rgb(255, 0, 0);
 }
+
 h2:hover {
     background-color: yellow;
 }
+
+.car {
+    background-color: rgb(40, 40, 60);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+     flex: 1;
+}
+
+.cars {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+
