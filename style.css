@@ -65,6 +65,33 @@ h2:hover {
     display: flex;
     gap: 50px;
     justify-content: center;
+    
+}
+.car:hover {
+    background-color: rgb(120, 30, 30);
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(30, 30, 45);
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}   
+.menu a:hover {
+    color: red;
 }
 
-
+.menu a:active {
+    color: rgb(104, 104, 104);
+    cursor: grabbing;
+}
+@media (max-width: 600px) {
+    .cars {
+        flex-direction: column;
+    }
+}
